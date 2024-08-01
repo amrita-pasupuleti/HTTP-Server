@@ -1,9 +1,17 @@
-# Assignment 4 directory
+# Multithreaded HTTP Server
 
-This directory contains source code and other files for Assignment 4.
 This is a multi-threaded http server that supports get and put requests, and implements reader and writer locks in C.
+This was made for an assignment in CSE 130 (Computer System Design)
 
-# Files
+## How to Run
+Download the files and run on a ubuntu environment with: 
+```
+make
+./test_repo.sh
+```
+The tests can be customized in the test_files directory.
+
+## Files
 
 Makefile <br />
 README.md <br />
